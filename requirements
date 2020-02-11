@@ -1,0 +1,6 @@
+TODO:
+
+    findvalue should return a pointer to the found value
+        -delete node should use this functionality
+    which sort style to use?
+    
