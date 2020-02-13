@@ -17,10 +17,11 @@ class list{
         ~list();
         void appendValue(int valueToAdd);
         void deleteList(void);
-        bool findValue(int valueToFind);
+        s_NODE* findValue(int valueToFind);
         void printList(void);
-        void removeValue(int);
+        void removeValue(int valueToRemove);
         void sortList(void);
+        void printValue(int valueToPrint);
 
     private:
         int p_IsSorted;
@@ -30,8 +31,8 @@ class list{
 
         s_NODE* p_CreateNode(int newValue);
         void p_DeleteList(void);
-        void p_DeleteNode(int);
-        void p_InsertNode(int);
+        void p_DeleteNode(int valueToDelete);
+        void p_InsertNode(int valueToInsert);
 
 };
 
